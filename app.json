@@ -3,7 +3,6 @@
     "name": "EMVD Front-End Test",
     "slug": "evmd-front-end-test",
     "privacy": "public",
-    "sdkVersion": "36.0.0",
     "platforms": [
       "ios",
       "android",

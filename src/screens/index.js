@@ -3,5 +3,5 @@ import Details from './Details';
 
 export {
   Home,
-  Details,
+  Details
 };

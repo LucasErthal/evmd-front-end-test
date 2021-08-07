@@ -4,7 +4,7 @@ import React from 'react';
 
 import { createStackNavigator } from '@react-navigation/stack';
 import { NavigationContainer } from '@react-navigation/native';
-import { Home, Details } from '../screens';
+import { Details, Home } from '../screens';
 
 // // const Stack = createStackNavigator();
 
@@ -42,10 +42,12 @@ function MyStack() {
   );
 }
 
-const Container = () => (
-  <NavigationContainer>
+function Container() {
+  return (
+    <NavigationContainer>
     <MyStack />
   </NavigationContainer>
-);
+  );
+}
 
 export default Container;
